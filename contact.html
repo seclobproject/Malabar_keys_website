@@ -159,8 +159,8 @@
 						</div>
 						<div class="col-xl-7">
 							<div class="contact-ads">
-								<form action="https://themekar.com/templatebucket/biznar/biznar/assets/mail/contact.php" method="post" class="contact-form">
-									<div class="row">
+								<form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+									<input type="hidden" name="access_key" value="35fc3bf8-2c1a-4295-9783-ca2919d7599c">									<div class="row">
 										<div class="col-md-6">
 											<div class="form-group">
 												<input type="text" class="form-control input-style-2" id="name" name="name" placeholder="Your Full Name*">
@@ -184,9 +184,10 @@
 										<div class="col-md-12">
 											<textarea class="form-control input-style-2" id="comment" name="comments" placeholder="Your Message..."></textarea>
 											<div class="contact-sub-btn text-center">
-												<button type="submit" name="submit" id="submit" class="btn-submit">
+												<input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+												<button type="submit"  class="btn-submit">
 													Send Message 
-													<i class="fas fa-chevron-right"></i>
 												</button>
 											</div>
 											<!-- Alert Message -->
